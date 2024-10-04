@@ -8,7 +8,7 @@ namespace SimplyBooks.Models
         public string Email { get; set; }
         public string Image { get; set; }
         public bool Favorite { get; set; }
-        public int? userId { get; set; }
-        public List<Book>? Books { get; set; }
+        public int? UserId { get; set; }
+        public List<Book> Books { get; set; } = new List<Book>();
     }
 }

@@ -1,10 +1,11 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>Simply_Books_BE</RootNamespace>
+    <UserSecretsId>304a0d90-2aa1-4f4f-a5f2-f03dbdddfcb0</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>

@@ -10,7 +10,7 @@ namespace SimplyBooks.Data
             new()
             {
                 Id = 1,
-                userId = 1,
+                UserId = 1,
                 Title = "One Hundred Years of Solitude",
                 Description = "One Hundred Years of Solitude follows the Buendía family over several generations in the fictional town of Macondo, exploring themes of solitude, destiny, and the cyclical nature of history. Gabriel García Márquez weaves magical realism into the narrative, blending the extraordinary with the ordinary to reveal the complexities of human experience.",
                 AuthorId = 5,
@@ -22,7 +22,7 @@ namespace SimplyBooks.Data
             new()
             {
                 Id = 2,
-                userId = 2,
+                UserId = 2,
                 Title = "The Dispossessed",
                 Description = "The Dispossessed tells the story of Shevek, a physicist from the anarchist moon of Anarres, as he seeks to bridge the ideological divide between his home and the capitalist planet of Urras. Ursula K. Le Guin explores themes of freedom, societal structures, and the personal costs of revolutionary ideals through Shevek's quest for understanding and connection.",
                 AuthorId = 4,
@@ -34,7 +34,7 @@ namespace SimplyBooks.Data
             new()
             {
                 Id = 3,
-                userId = 2,
+                UserId = 2,
                 Title = "Dune",
                 Description = "Dune follows Paul Atreides, the heir to the noble House Atreides, as he navigates political intrigue, betrayal, and his destiny on the desert planet of Arrakis, the only source of the invaluable spice melange. Frank Herbert's epic tale explores themes of power, ecology, and human potential, set against a richly developed universe that examines the complexities of leadership and prophecy.",
                 AuthorId = 3,
@@ -46,7 +46,7 @@ namespace SimplyBooks.Data
             new()
             {
                 Id = 4,
-                userId = 1,
+                UserId = 1,
                 Title = "Even Cowgirls Get the Blues",
                 Description = "Even Cowgirls Get the Blues follows Sissy Hankshaw, a free-spirited woman born with oversized thumbs, as she embarks on a journey of self-discovery and rebellion against societal norms. Tom Robbins blends humor and philosophy, weaving a narrative that celebrates individuality and the pursuit of freedom in a quirky, vibrant world.",
                 AuthorId = 2,
@@ -58,9 +58,9 @@ namespace SimplyBooks.Data
             new()
             {
                 Id = 5,
-                userId = 1,
+                UserId = 1,
                 Title = "Pilgrim at Tinker Creek",
-                Description = "\r\nPilgrim at Tinker Creek is a reflective exploration of nature and existence, where Annie Dillard observes the beauty and complexity of the natural world around Tinker Creek in Virginia's Blue Ridge Mountains. Through poetic prose, she delves into themes of creation, mortality, and the interconnectedness of life, inviting readers to contemplate the profound mysteries of nature and their place within it.",
+                Description = "Pilgrim at Tinker Creek is a reflective exploration of nature and existence, where Annie Dillard observes the beauty and complexity of the natural world around Tinker Creek in Virginia's Blue Ridge Mountains. Through poetic prose, she delves into themes of creation, mortality, and the interconnectedness of life, inviting readers to contemplate the profound mysteries of nature and their place within it.",
                 AuthorId = 1,
                 Price = 15.99M,
                 Sale = false,
@@ -70,7 +70,7 @@ namespace SimplyBooks.Data
             new()
             {
                 Id = 6,
-                userId = 2,
+                UserId = 2,
                 Title = "Ceremony",
                 Description = "Ceremony tells the story of Tayo, a mixed-race World War II veteran who returns to his Native American community in New Mexico, struggling with trauma and identity. Leslie Marmon Silko weaves traditional storytelling with themes of healing, cultural resilience, and the importance of rituals, as Tayo seeks to reconcile his experiences and reconnect with his heritage.",
                 AuthorId =  6,
@@ -81,7 +81,7 @@ namespace SimplyBooks.Data
 
             new() { 
                 Id = 7,
-                userId = 2,
+                UserId = 2,
                 Title = "Dune Messiah",
                 Description = "Dune Messiah* continues the saga of Paul Atreides, now Emperor of the known universe, as he grapples with the burdens of power, prophecy, and the consequences of his own messianic rise. Frank Herbert delves into themes of political intrigue, the nature of leadership, and the moral complexities of a future shaped by fanaticism and the weight of legacy.",
                 AuthorId = 3,
