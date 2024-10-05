@@ -7,7 +7,7 @@ namespace SimplyBooks.APIs
 {
     public class BookAPI
     {
-        public static void Mapp(WebApplication app)
+        public static void Map(WebApplication app)
         {
             // GET ALL BOOKS BY USER
             app.MapGet("/books/users/{userId}", (SimplyBooksDbContext db, int userId) =>
@@ -49,7 +49,7 @@ namespace SimplyBooks.APIs
 
                 db.Books.Add(addBook);
                 db.SaveChanges();
-                return Results.Created($"books/{addBook.Id}", newBook);
+                return Results.Created($"books/{addBook.Id}", addBook);
             });
 
             app.MapDelete("/books/{bookId}", (SimplyBooksDbContext db, int bookId) =>
@@ -66,7 +66,7 @@ namespace SimplyBooks.APIs
                 return Results.NoContent();
             });
 
-            app.MapPut("/book/{bookId}", (SimplyBooksDbContext db, int bookId, Book book) =>
+            app.MapPut("/books/{bookId}", (SimplyBooksDbContext db, int bookId, Book book) =>
             {
                 Book updateBook = db.Books.SingleOrDefault(b => b.Id == bookId);
 
