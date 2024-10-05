@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 using SimplyBooks.Models;
+using Microsoft.AspNetCore.Http.HttpResults;
 
 namespace SimplyBooks.APIs
 {
@@ -15,6 +16,21 @@ namespace SimplyBooks.APIs
                         .Where(b => b.UserId == userId)
                         .Include(b => b.Author)
                         .ToList();
+            });
+
+            //GET BOOK BY BOOK ID
+            app.MapGet("/books/{bookId}", (SimplyBooksDbContext db, int bookId) =>
+            {
+                Book book = db.Books
+                            .Include(b => b.Author)
+                            .SingleOrDefault(b => b.Id == bookId);
+
+                if (book == null)
+                {
+                    return Results.NotFound("That book does not exist");
+                }
+
+                return Results.Ok(book);
             });
 
             // CREATE USER BOOK
