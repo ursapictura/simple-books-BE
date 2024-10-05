@@ -1,6 +1,7 @@
 using System.Text.Json.Serialization;
 using Microsoft.AspNetCore.Http.Json;
 using Microsoft.EntityFrameworkCore;
+using SimplyBooks.APIs;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -39,5 +40,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseCors();
+
+BookAPI.Mapp(app);
 
 app.Run();
