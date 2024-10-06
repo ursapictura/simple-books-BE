@@ -57,7 +57,7 @@ dotnet add package Microsoft.EntityFrameworkCore.Design --version 6.0
 
 dotnet user-secrets init
 
-dotnet user-secrets set "SimplyBooksDbConnectionString" "Host=localhost;Port=5432;Username=postgres;Password=<your_postgresql_password>;Database=SimplyBooksr"
+dotnet user-secrets set "SimplyBooksDbConnectionString" "Host=localhost;Port=5432;Username=postgres;Password=<your_postgresql_password>;Database=SimplyBooks"
 ```
 
 <h2 id="routes">📍 API Endpoints</h2>
