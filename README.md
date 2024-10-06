@@ -44,7 +44,9 @@ git clone your-project-url-in-github
 ```
 
 <h3>After Cloning</h3>
+
 How to start your project
+
 
 ```bash
 cd project-name
