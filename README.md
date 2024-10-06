@@ -25,6 +25,7 @@ User's also assign prices for each book, select if a book or author is their fav
 - SQL
 - Postman
 
+<h2 id="started">🚀 Getting Started</h2>
 
 <h3>Prerequisites</h3>
 
@@ -42,8 +43,7 @@ How to clone your project
 git clone your-project-url-in-github
 ```
 
-<h3 id="started">Starting</h3>
-
+<h3>After Cloning</h3>
 How to start your project
 
 ```bash
@@ -77,9 +77,10 @@ Here you can list the main routes of your API, and what are their expected reque
 | <kbd>POST /authors</kbd>     | Add an author to database
 | <kbd>PUT /authors/{authorId}</kbd>     | Update specific author's details
 
+Visit the [API Postman Dopcumentation](https://documenter.getpostman.com/view/31905233/2sAXxMftVX) to learn more about the API routes and examples of how each request and response should look.
 
-<h3 id="docs">Documentations that might help</h3>
+<h2 id="docs">📝 Helpful Documentation</h2>
 
-[📄 API Documentation in Postman](https://documenter.getpostman.com/view/31905233/2sAXxMftVX)
+[Simply Books BE: API Documentation in Postman](https://documenter.getpostman.com/view/31905233/2sAXxMftVX)
 
-[✔️ How to create a Pull Request](https://www.atlassian.com/br/git/tutorials/making-a-pull-request)
+[How to create a Pull Request](https://www.atlassian.com/br/git/tutorials/making-a-pull-request)
