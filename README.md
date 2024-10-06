@@ -77,7 +77,7 @@ Here you can list the main routes of your API, and what are their expected reque
 | <kbd>POST /authors</kbd>     | Add an author to database
 | <kbd>PUT /authors/{authorId}</kbd>     | Update specific author's details
 
-Visit the [API Postman Dopcumentation](https://documenter.getpostman.com/view/31905233/2sAXxMftVX) to learn more about the API routes and examples of how each request and response should look.
+Visit the [API Postman Documentation](https://documenter.getpostman.com/view/31905233/2sAXxMftVX) to learn more about the API routes and examples of how each request and response should look.
 
 <h2 id="docs">📝 Helpful Documentation</h2>
 
